@@ -1,0 +1,14 @@
+mat-radio-group {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+mat-radio-group mat-radio-button {
+    padding-top: 5px;
+}
+
+mat-card {
+    margin: 40px;
+    color: cadetblue;
+    background-color:whitesmoke;
+}

@@ -23,6 +23,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { NgSwitchComponent } from './ng-switch/ng-switch.component';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { NgTemplateComponent } from './ng-template/ng-template.component';
+import { NgContainerComponent } from './ng-container/ng-container.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { NgTemplateComponent } from './ng-template/ng-template.component';
     NgForComponent,
     NgForFormComponent,
     NgSwitchComponent,
-    NgTemplateComponent
+    NgTemplateComponent,
+    NgContainerComponent
   ],
   imports: [
     BrowserModule,

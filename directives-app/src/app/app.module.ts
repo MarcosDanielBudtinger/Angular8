@@ -10,12 +10,18 @@ import { MatRadioModule } from '@angular/material/radio';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
 import { NgClassComponent } from './ng-class/ng-class.component';
+import { NgIfComponent } from './ng-if/ng-if.component';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatInputModule } from '@angular/material/input';
+import { SubComponent } from './ng-if/sub/sub.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NgStyleComponent,
-    NgClassComponent
+    NgClassComponent,
+    NgIfComponent,
+    SubComponent
   ],
   imports: [
     BrowserModule,
@@ -24,7 +30,9 @@ import { NgClassComponent } from './ng-class/ng-class.component';
     MatCardModule,
     MatRadioModule,
     MatFormFieldModule,
-    MatSelectModule
+    MatSelectModule,
+    MatCheckboxModule,
+    MatInputModule
 
   ],
   providers: [],

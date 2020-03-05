@@ -16,6 +16,8 @@ import { MatInputModule } from '@angular/material/input';
 import { SubComponent } from './ng-if/sub/sub.component';
 import { NgForComponent } from './ng-for/ng-for.component';
 import { MatListModule } from '@angular/material/list';
+import { MatIconModule } from '@angular/material/icon';
+import { MatDividerModule } from '@angular/material/divider';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,9 @@ import { MatListModule } from '@angular/material/list';
     MatSelectModule,
     MatCheckboxModule,
     MatInputModule,
-    MatListModule
+    MatListModule,
+    MatIconModule,
+    MatDividerModule,
 
   ],
   providers: [],

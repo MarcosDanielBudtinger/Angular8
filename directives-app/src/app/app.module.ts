@@ -24,6 +24,7 @@ import { NgSwitchComponent } from './ng-switch/ng-switch.component';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { NgTemplateComponent } from './ng-template/ng-template.component';
 import { NgContainerComponent } from './ng-container/ng-container.component';
+import { NgContentComponent } from './ng-content/ng-content.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { NgContainerComponent } from './ng-container/ng-container.component';
     NgForFormComponent,
     NgSwitchComponent,
     NgTemplateComponent,
-    NgContainerComponent
+    NgContainerComponent,
+    NgContentComponent
   ],
   imports: [
     BrowserModule,

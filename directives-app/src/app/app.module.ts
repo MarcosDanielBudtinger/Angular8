@@ -18,6 +18,8 @@ import { NgForComponent } from './ng-for/ng-for.component';
 import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
+import { NgForFormComponent } from './ng-for-form/ng-for-form.component';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,8 @@ import { MatDividerModule } from '@angular/material/divider';
     NgClassComponent,
     NgIfComponent,
     SubComponent,
-    NgForComponent
+    NgForComponent,
+    NgForFormComponent
   ],
   imports: [
     BrowserModule,
@@ -41,6 +44,7 @@ import { MatDividerModule } from '@angular/material/divider';
     MatListModule,
     MatIconModule,
     MatDividerModule,
+    MatButtonModule,
 
   ],
   providers: [],

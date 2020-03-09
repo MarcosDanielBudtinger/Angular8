@@ -14,8 +14,8 @@ export class EventComponent implements OnInit {
   ngOnInit() {
   }
 
-  incBy(n: number) {
-    this.value += n;
+  incBy(event) {
+    this.value += event;
   }
 
 }

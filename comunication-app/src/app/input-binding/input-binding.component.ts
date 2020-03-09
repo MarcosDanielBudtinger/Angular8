@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { Client } from './client.model';
 
 @Component({
   selector: 'app-input-binding',
@@ -12,7 +13,18 @@ export class InputBindingComponent implements OnInit {
   @Input('othername')
   lastName: string;
 
-  constructor() { }
+  @Input() age: number;
+
+  clients: Client[];
+
+  constructor() {
+    this.clients = [
+      { id: 1, name: 'Bob', age: 30 },
+      { id: 2, name: 'Ana', age: 20 },
+      { id: 3, name: 'John', age: 34 },
+      { id: 4, name: 'Maria', age: 40 }
+    ];
+  }
 
   ngOnInit() {
   }

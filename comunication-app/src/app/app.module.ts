@@ -20,6 +20,8 @@ import { FormsModule } from '@angular/forms';
 import { ItemClientComponent } from './clients/item-client/item-client.component';
 import { ParentChildComponent } from './parent-child/parent-child.component';
 import { TimerComponent } from './parent-child/timer/timer.component';
+import { OnChangesComponent } from './on-changes/on-changes.component';
+import { NameChangesComponent } from './on-changes/name-changes/name-changes.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +34,8 @@ import { TimerComponent } from './parent-child/timer/timer.component';
     ItemClientComponent,
     ParentChildComponent,
     TimerComponent,
+    OnChangesComponent,
+    NameChangesComponent,
   ],
   imports: [
     BrowserModule,
